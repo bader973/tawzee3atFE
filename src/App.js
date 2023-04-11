@@ -1,6 +1,6 @@
 import React, { Component, useState, useEffect } from "react";
-import Signup from "./user/Signup";
-import Signin from "./user/Signin";
+import Signup from "./auth/Signup";
+import Signin from "./auth/Signin";
 import ItemList from './item/ItemList'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Axios from "axios";
